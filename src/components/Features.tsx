@@ -6,26 +6,26 @@ const featureItems = [
   {
     title: "AI-Powered Content Creation",
     description: "Generate high-quality articles, blog posts, and more with our advanced AI models.",
-    icon: "/_next/static/media/star.c6520da8.png",
+    icon: "/_next/static/media/star.c6520da8.png"
   },
   {
     title: "Multi-Modal Generation",
     description: "Create text, images, and videos from simple prompts in seconds.",
-    icon: "/_next/static/media/tube.e2613147.png",
+    icon: "/_next/static/media/tube.e2613147.png"
   },
   {
     title: "Personalized Solutions",
     description: "Customize outputs to match your brand voice and style requirements.",
-    icon: "/_next/static/media/pyramid.ffcbdb14.png",
+    icon: "/_next/static/media/pyramid.ffcbdb14.png"
   },
   {
     title: "Seamless Integration",
     description: "Connect with your existing workflows and tools for maximum efficiency.",
-    icon: "/_next/static/media/spring.cf1cfdf2.png",
+    icon: "/_next/static/media/spring.cf1cfdf2.png"
   }
 ];
 
-export const Features = () => {
+const Features = () => {
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto">
