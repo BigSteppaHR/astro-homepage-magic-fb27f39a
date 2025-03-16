@@ -1,6 +1,5 @@
 
 import React from 'react';
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 // Using the existing logo images from the project
@@ -34,7 +33,7 @@ export const Partners = () => {
               transition={{ duration: 0.3, delay: index * 0.05 }}
               viewport={{ once: true }}
             >
-              <Image
+              <img
                 src={logo.src}
                 alt={logo.alt}
                 width={180}

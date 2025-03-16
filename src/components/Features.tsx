@@ -1,6 +1,5 @@
 
 import React from 'react';
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 const featureItems = [
@@ -50,7 +49,7 @@ export const Features = () => {
               viewport={{ once: true }}
             >
               <div className="w-16 h-16 mb-6 relative">
-                <Image
+                <img
                   src={feature.icon}
                   alt={feature.title}
                   width={64}
